@@ -23,7 +23,7 @@ const socialLinks = [
   {
     name: "WhatsApp",
     icon: "https://www.mentorsedu.com/wp-folder/img/Group-21.png",
-    href: "https://wa.me/919807678581",
+    href: "https://wa.me/918130705508",
     color: "#25D366",
   },
   {
@@ -41,7 +41,7 @@ const socialLinks = [
   {
     name: "Telegram",
     icon: "https://www.mentorsedu.com/wp-folder/img/Group-24.png",
-    href: "https://t.me/trisclasses",
+    href: "https://t.me/highqacademy",
     color: "#26A5E4",
   },
   {
@@ -59,10 +59,11 @@ const socialLinks = [
 ];
 
 const quickLinks = [
-  { label: "JEE Main Preparation", href: "#courses" },
-  { label: "JEE Advanced Coaching", href: "#courses" },
+  { label: "IIT JEE Main Preparation", href: "#courses" },
+  { label: "IIT JEE Advanced Coaching", href: "#courses" },
   { label: "NEET UG Preparation", href: "#courses" },
-  { label: "Foundation Batches (6–10)", href: "#courses" },
+  { label: "NTSE & Olympiad Batches", href: "#courses" },
+  { label: "Foundation Classes (6–12)", href: "#courses" },
   { label: "Student Results", href: "#reviews" },
   { label: "Faculty", href: "#director" },
 ];
@@ -71,14 +72,14 @@ const contactInfo = [
   {
     icon: <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />,
     label: "Address",
-    value: "Panchkoshi Rd, Jai Nagar Colony, Gilat Bazar, Varanasi 221002",
+    value: "100, Ft. Road, near Prem Garden Marriage Home, Sector-3, U.I.T Colony, Bharatpur, Rajasthan 321001",
     href: undefined,
   },
   {
     icon: <Phone className="w-4 h-4 flex-shrink-0" />,
     label: "Phone",
-    value: "098076 78581",
-    href: "tel:09807678581",
+    value: "081307 05508",
+    href: "tel:08130705508",
   },
   {
     icon: <Clock className="w-4 h-4 flex-shrink-0" />,
@@ -89,7 +90,7 @@ const contactInfo = [
   {
     icon: <Hash className="w-4 h-4 flex-shrink-0" />,
     label: "Plus Code",
-    value: "9X38+HX Varanasi",
+    value: "6FGM+4X Bharatpur, Rajasthan",
     href: undefined,
   },
 ];
@@ -130,7 +131,7 @@ export default function Footer() {
                 <div className="w-14 h-14 flex-shrink-0 rounded-full overflow-hidden border-2 border-white/20 shadow-lg bg-white">
                   <Image
                     src="/logo.jpg"
-                    alt="TRI-S Classes Logo"
+                    alt="High Q Academy Logo"
                     width={56}
                     height={56}
                     className="w-full h-full object-contain p-1"
@@ -138,22 +139,22 @@ export default function Footer() {
                 </div>
                 <div>
                   <div className="font-heading font-extrabold text-[17px] text-white leading-tight">
-                    TRI-S CLASSES
+                    HIGH Q ACADEMY
                   </div>
                   <div className="text-[11px] font-semibold tracking-wide" style={{ color: SECONDARY_HOVER }}>
-                    त्रि-स क्लासेज
+                    हाईक्यू एकेडमी
                   </div>
                   <div className="text-[10px] text-white/40 font-medium mt-0.5">
-                    सत्यम् शिवम् सुन्दरम्
+                    IIT JEE | NEET | NTSE | Olympiad
                   </div>
                 </div>
               </div>
             <p className="text-[13px] text-white/60 leading-relaxed mb-5 hidden sm:block">
-              Premier offline &amp; hybrid coaching institute in Varanasi, specializing in JEE,
-              NEET &amp; Foundation programs. Trusted by 500+ students and their families.
+              Premier offline coaching institute in Bharatpur, Rajasthan, specializing in IIT JEE,
+              NEET, NTSE, Olympiad &amp; Foundation programs (6th–12th). Trusted by 500+ students and their families.
             </p>
             <p className="text-[13px] text-white/60 leading-relaxed mb-5 sm:hidden">
-              JEE, NEET &amp; Foundation coaching in Varanasi. Trusted by 500+ students.
+              IIT JEE, NEET &amp; Foundation coaching in Bharatpur. Trusted by 500+ students.
             </p>
 
               <div className="flex flex-wrap gap-2">
@@ -235,13 +236,13 @@ export default function Footer() {
                   <Target className="w-4 h-4" style={{ color: ACCENT_LIGHT }} />
                   Seats are filling fast. Enroll now for:
                 </div>
-                {["JEE Main & Advanced", "NEET UG", "Foundation (6–10)"].map((prog) => (
+                {["IIT JEE Main & Advanced", "NEET UG", "NTSE & Olympiad", "Foundation (6–12)"].map((prog) => (
                   <div key={prog} className="flex items-center gap-2 text-[12px] text-white/80 font-semibold">
                     <Check className="w-3.5 h-3.5" style={{ color: ACCENT_LIGHT }} /> {prog}
                   </div>
                 ))}
                 <a
-                  href="tel:09807678581"
+                  href="tel:08130705508"
                   className="flex items-center justify-center gap-2 w-full text-center hover:bg-[#1E40AF] text-white font-bold text-[13px] py-2.5 rounded-xl transition-colors mt-2"
                   style={{ backgroundColor: SECONDARY }}
                 >
@@ -249,7 +250,7 @@ export default function Footer() {
                   Call to Enroll Now
                 </a>
                 <a
-                  href="https://wa.me/919807678581"
+                  href="https://wa.me/918130705508"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full text-center bg-[#25D366]/15 hover:bg-[#25D366]/25 border border-[#25D366]/30 text-[#25D366] font-bold text-[13px] py-2.5 rounded-xl transition-colors"
@@ -265,12 +266,12 @@ export default function Footer() {
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
             <p className="text-[12px] text-white/40 text-center sm:text-left">
-              © 2026 TRI-S CLASSES. All Rights Reserved. Designed for Educational Excellence.
+              © 2026 HIGH Q ACADEMY. All Rights Reserved. Designed for Educational Excellence.
             </p>
             <div className="flex items-center gap-4 text-[12px] text-white/40">
               <span className="flex items-center gap-1">
                 <Building2 className="w-3.5 h-3.5" />
-                Varanasi, UP 221002
+                Bharatpur, Rajasthan 321001
               </span>
               <span>|</span>
               <span className="flex items-center gap-1">

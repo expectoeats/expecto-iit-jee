@@ -39,9 +39,9 @@ export default function AboutSection() {
       label: "Address",
       value: (
         <span className="text-[13px] text-[#6B7280] leading-relaxed">
-          Panchkoshi Rd, Jai Nagar Colony,<br />
-          Gilat Bazar, Varanasi,<br />
-          Uttar Pradesh — 221002
+          100, Ft. Road, near Prem Garden Marriage Home,<br />
+          Sector-3, U.I.T Colony, Bharatpur,<br />
+          Bharatpur Chak 2, Rajasthan — 321001
         </span>
       ),
     },
@@ -49,8 +49,8 @@ export default function AboutSection() {
       icon: <Phone className="w-5 h-5 flex-shrink-0" style={{ color: SECONDARY }} />,
       label: "Phone",
       value: (
-        <a href="tel:09807678581" className="text-[13px] text-[#0F2C59] font-bold transition-colors" style={{ color: SECONDARY_HOVER }}>
-          098076 78581
+        <a href="tel:08130705508" className="text-[13px] text-[#0F2C59] font-bold transition-colors" style={{ color: SECONDARY_HOVER }}>
+          081307 05508
         </a>
       ),
     },
@@ -62,7 +62,7 @@ export default function AboutSection() {
     {
       icon: <Hash className="w-5 h-5 flex-shrink-0" style={{ color: SECONDARY }} />,
       label: "Plus Code",
-      value: <span className="text-[13px] text-[#6B7280] font-mono">9X38+HX Varanasi</span>,
+      value: <span className="text-[13px] text-[#6B7280] font-mono">6FGM+4X Bharatpur, Rajasthan</span>,
     },
   ];
 
@@ -73,7 +73,7 @@ export default function AboutSection() {
           <div className="relative h-44 sm:h-56 md:h-64">
             <Image
               src={BUILDING_IMG}
-              alt="TRI-S CLASSES Coaching Institute Building Varanasi"
+              alt="HIGH Q ACADEMY Coaching Institute Building Bharatpur"
               fill
               className="object-cover w-full"
               sizes="100vw"
@@ -83,7 +83,7 @@ export default function AboutSection() {
               <div className="max-w-7xl mx-auto px-6 sm:px-10 w-full text-center sm:text-left">
                 <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-[11px] sm:text-[12px] font-bold px-3 py-1 rounded-full mb-2 sm:mb-3 tracking-wider uppercase">
                   <MapPin className="w-3.5 h-3.5" />
-                  Gilat Bazar, Shivpur — Varanasi
+                  Ft. Road, Sector-3, Bharatpur
                 </div>
                 <h2 className="font-heading text-[20px] sm:text-[28px] md:text-[40px] font-extrabold text-white leading-tight max-w-2xl">
                   Visit Our <span className="text-[#93C5FD]">State-of-the-Art</span> Coaching Center
@@ -102,7 +102,7 @@ export default function AboutSection() {
             Come Meet Us <span style={{ color: SECONDARY }}>in Person</span>
           </h3>
           <p className="mt-2 text-[13px] sm:text-[15px] text-[#6B7280] max-w-xl mx-auto hidden sm:block">
-            Attend a free demo class, meet our faculty, and see why 500+ students trust TRI-S CLASSES
+            Attend a free demo class, meet our faculty, and see why 500+ students trust HIGH Q ACADEMY
           </p>
           <p className="mt-2 text-[13px] text-[#6B7280] max-w-xl mx-auto sm:hidden">
             Attend a free demo &amp; meet our faculty.
@@ -114,7 +114,7 @@ export default function AboutSection() {
             <div className="relative overflow-hidden rounded-2xl h-52 sm:h-60 card-shadow border border-[#EAE5DC] mb-5 group">
               <Image
                 src={CAMPUS_IMG}
-                alt="TRI-S CLASSES Reception & Campus Interior Varanasi"
+                alt="HIGH Q ACADEMY Reception & Campus Interior Bharatpur"
                 fill
                 className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -135,7 +135,7 @@ export default function AboutSection() {
               </div>
             </div>
 
-            <div className="bg-[#FDFBF7] border border-[#EAE5DC] rounded-2xl p-6 card-shadow">
+            <div className="bg-white border border-[#EAE5DC] rounded-2xl p-6 card-shadow">
               <h3 className="font-heading text-[18px] font-bold text-[#0F2C59] mb-4 flex items-center gap-2">
                 <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ backgroundColor: `${SECONDARY}18` }}>
                   <MapPin className="w-4 h-4" style={{ color: SECONDARY }} />
@@ -158,7 +158,7 @@ export default function AboutSection() {
 
               <div className="flex gap-3 mt-5">
                 <a
-                  href="https://maps.google.com/?q=Panchkoshi+Rd,+Jai+Nagar+Colony,+Gilat+Bazar,+Varanasi+221002"
+                  href="https://maps.google.com/?q=100+Ft+Road+near+Prem+Garden+Marriage+Home+Sector+3+UIT+Colony+Bharatpur+Rajasthan+321001"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 flex items-center justify-center gap-2 text-white text-[13px] font-bold py-2.5 rounded-xl transition-all duration-200"
@@ -170,7 +170,7 @@ export default function AboutSection() {
                   <span>Get Directions</span>
                 </a>
                 <a
-                  href="tel:09807678581"
+                  href="tel:08130705508"
                   className="flex-1 flex items-center justify-center gap-2 text-white text-[13px] font-bold py-2.5 rounded-xl transition-all duration-200"
                   style={{ backgroundColor: SECONDARY }}
                   onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = SECONDARY_HOVER)}
@@ -183,7 +183,7 @@ export default function AboutSection() {
             </div>
 
             <a
-              href="https://wa.me/919807678581?text=Hello!%20I%20want%20to%20know%20more%20about%20TRI-S%20CLASSES%20coaching."
+              href="https://wa.me/918130705508?text=Hello!%20I%20want%20to%20know%20more%20about%20High%20Q%20Academy."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 transition-all duration-200 group rounded-2xl p-5 border"
@@ -208,7 +208,7 @@ export default function AboutSection() {
             <div className="relative overflow-hidden rounded-2xl h-40 sm:h-48 mb-5 card-shadow border border-[#EAE5DC] group">
               <Image
                 src={LOCATION_MAP_IMG}
-                alt="TRI-S CLASSES Location Map Gilat Bazar Varanasi"
+                alt="HIGH Q ACADEMY Location Map Bharatpur Rajasthan"
                 fill
                 className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -217,14 +217,14 @@ export default function AboutSection() {
               <div className="absolute top-4 left-4 right-4 flex items-start justify-between">
                 <div className="bg-white/95 backdrop-blur-sm rounded-xl px-3 py-2 shadow-lg">
                   <div className="font-heading font-bold text-[11px] text-[#0F2C59] leading-tight">
-                    📍 TRI-S CLASSES
+                    HIGH Q ACADEMY
                   </div>
                   <div className="text-[9px] text-[#6B7280] font-semibold">
-                    Gilat Bazar, Shivpur
+                    Sector-3, Bharatpur
                   </div>
                 </div>
                 <a
-                  href="https://maps.google.com/?q=Panchkoshi+Rd,+Jai+Nagar+Colony,+Gilat+Bazar,+Varanasi"
+                  href="https://maps.google.com/?q=100+Ft+Road+near+Prem+Garden+Marriage+Home+Sector+3+UIT+Colony+Bharatpur+Rajasthan+321001"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#1D4ED8] hover:bg-[#1E40AF] text-white font-bold text-[11px] px-3 py-2 rounded-xl shadow-lg transition-colors flex items-center gap-1"
@@ -240,7 +240,7 @@ export default function AboutSection() {
               </div>
             </div>
 
-            <div className="bg-[#FDFBF7] border border-[#EAE5DC] rounded-2xl p-6 card-shadow">
+            <div className="bg-white border border-[#EAE5DC] rounded-2xl p-6 card-shadow">
               <div className="flex items-center gap-2 mb-5">
                 <div className="w-1.5 h-6 rounded-full" style={{ backgroundColor: SECONDARY }}></div>
                 <h3 className="font-heading text-[18px] font-bold text-[#0F2C59]">

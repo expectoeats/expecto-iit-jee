@@ -7,9 +7,9 @@ const SECONDARY_HOVER = "#1E40AF";
 
 const announcements = [
   "New Batches Starting from 1st September 2026 — Enroll Now!",
-  "25+ Selections in JEE Main & NEET UG 2024 from TRI-S CLASSES",
+  "IIT JEE, NEET, NTSE & Olympiad Batches — Admissions Open",
   "Free Scholarship Cum Admission Test — Every Sunday 10 AM",
-  "Limited Seats Left in JEE Dropper & NEET Dropper Batches",
+  "Foundation Classes for Class 6th to 12th — Limited Seats",
 ];
 
 export default function AnnouncementBar() {
@@ -47,11 +47,11 @@ export default function AnnouncementBar() {
             <span className="hidden sm:inline text-white/50">|</span>
             <Phone className="w-3.5 h-3.5 flex-shrink-0 hidden sm:inline-block" />
             <a
-              href="tel:09807678581"
+              href="tel:08130705508"
               className="underline underline-offset-2 hover:text-white transition-colors hidden sm:inline"
               style={{ color: "#93C5FD" }}
             >
-              098076 78581
+              081307 05508
             </a>
           </span>
         </div>
@@ -59,7 +59,7 @@ export default function AnnouncementBar() {
         <div className="flex items-center gap-2 flex-shrink-0">
           <span className="hidden md:flex items-center gap-1 text-white/70 text-[12px]">
             <MapPin className="w-3 h-3" />
-            Panchkoshi Rd, Gilat Bazar, Varanasi
+            Ft. Road, Sector-3, Bharatpur
           </span>
           <a
             href="#contact"

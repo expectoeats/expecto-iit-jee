@@ -31,6 +31,26 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "encrypted-tbn0.gstatic.com",
       },
+      {
+        protocol: "https",
+        hostname: "www.studynlearn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "l1coaching.in",
+      },
+      {
+        protocol: "https",
+        hostname: "static.vecteezy.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.hillshigh.com",
+      },
+      {
+        protocol: "https",
+        hostname: "poorvucenter.yale.edu",
+      },
     ],
   },
 };

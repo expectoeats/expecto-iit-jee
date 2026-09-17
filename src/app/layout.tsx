@@ -15,15 +15,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "TRI-S CLASSES | त्रि-स क्लासेज — JEE, NEET & Foundation Coaching in Varanasi",
+  title: "High Q Academy — IIT JEE, NEET & Foundation Coaching in Bharatpur",
   description:
-    "Premier offline & hybrid coaching institute in Gilat Bazar, Shivpur, Varanasi. Expert mentors for JEE Main, JEE Advanced, NEET UG & Class 6–10 Foundation. Admissions open for 2026–27.",
+    "Premier coaching institute in Bharatpur, Rajasthan. Expert mentors for IIT JEE, NEET, NTSE, Olympiads & Class 6–12 Foundation. Admissions open for 2026–27.",
   keywords:
-    "coaching institute varanasi, jee coaching varanasi, neet coaching varanasi, tri-s classes, shivpur coaching, gilat bazar coaching",
+    "coaching institute bharatpur, jee coaching bharatpur, neet coaching bharatpur, high q academy, nti olympiad coaching bharatpur, foundation classes bharatpur",
   openGraph: {
-    title: "TRI-S CLASSES | त्रि-स क्लासेज",
+    title: "High Q Academy — IIT JEE, NEET & Foundation Coaching",
     description:
-      "Premier JEE, NEET & Foundation coaching in Varanasi. Smart classrooms, expert faculty, personal mentorship.",
+      "Premier IIT JEE, NEET, NTSE, Olympiad & Foundation coaching in Bharatpur. Smart classrooms, expert faculty, personal mentorship.",
     type: "website",
   },
 };
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${plusJakarta.variable} ${inter.variable} scroll-smooth`}>
-      <body className="min-h-full flex flex-col bg-[#FDFBF7] antialiased">{children}</body>
+      <body className="min-h-full flex flex-col bg-white antialiased">{children}</body>
     </html>
   );
 }

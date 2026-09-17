@@ -23,7 +23,7 @@ export default function FloatingWhatsApp() {
       </div>
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/919807678581?text=Hello!%20I%20want%20to%20know%20more%20about%20TRI-S%20CLASSES."
+        href="https://wa.me/918130705508?text=Hello!%20I%20want%20to%20know%20more%20about%20High%20Q%20Academy."
         target="_blank"
         rel="noopener noreferrer"
         className="group w-14 h-14 bg-[#25D366] hover:bg-[#1ebe5d] rounded-full shadow-xl flex items-center justify-center transition-all duration-200 hover:scale-110"

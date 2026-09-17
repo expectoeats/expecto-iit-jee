@@ -28,7 +28,7 @@ type InfraItem = {
   desc: string;
   stat: string;
   color: string;
-  gradient: string;
+  image: string;
   pattern: string;
   num: string;
 };
@@ -40,7 +40,7 @@ const infraItems: InfraItem[] = [
     desc: "Spacious, well-ventilated AC classrooms with ergonomic seating for 45+ students — distraction-free, natural light, and noise-proof walls.",
     stat: "100+ Seat Capacity",
     color: "#0F2C59",
-    gradient: "from-[#0F2C59] via-[#1E40AF] to-[#3B82F6]",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqLEV0UAA1FF3kAPqjlHDl1IdGo119kvdOa8ABh8b0CBARFxQ8caA8d5Cw&s=10",
     pattern: "01",
     num: "01",
   },
@@ -50,7 +50,7 @@ const infraItems: InfraItem[] = [
     desc: "Full HD interactive smart boards with 3D animations, annotated notes & wireless screen sharing in every classroom for visual learning.",
     stat: "All Classrooms Equipped",
     color: SECONDARY,
-    gradient: "from-[#1D4ED8] via-[#2563EB] to-[#60A5FA]",
+    image: "https://www.studynlearn.com/blog/upload/blogs/dca957018797348188d9966b3b1c3fb511cfe658.png",
     pattern: "02",
     num: "02",
   },
@@ -60,7 +60,7 @@ const infraItems: InfraItem[] = [
     desc: "Weekly chapter-wise tests, monthly full-syllabus JEE/NEET pattern mocks + OMR-based practice with detailed scorecard analytics.",
     stat: "40+ Tests Per Year",
     color: "#059669",
-    gradient: "from-[#047857] via-[#059669] to-[#34D399]",
+    image: "https://l1coaching.in/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-09-at-23.23.42-1024x768.webp",
     pattern: "03",
     num: "03",
   },
@@ -70,7 +70,7 @@ const infraItems: InfraItem[] = [
     desc: "Expert-curated printed booklets aligned with NCERT + latest exam patterns: concept theory, solved examples, DPPs, and revision notes.",
     stat: "Includes DPPs & Notes",
     color: "#7C3AED",
-    gradient: "from-[#6D28D9] via-[#7C3AED] to-[#A78BFA]",
+    image: "https://static.vecteezy.com/system/resources/thumbnails/070/236/601/small/stack-of-textbooks-homework-time-in-study-desk-clean-editorial-photo.jpg",
     pattern: "04",
     num: "04",
   },
@@ -80,17 +80,17 @@ const infraItems: InfraItem[] = [
     desc: "Fully equipped Physics, Chemistry & Biology labs with modern apparatus for NEET & Board practicals — hands-on learning, not just theory.",
     stat: "Modern Equipment",
     color: "#D97706",
-    gradient: "from-[#B45309] via-[#D97706] to-[#FBBF24]",
+    image: "https://www.hillshigh.com/wp-content/uploads/2021/02/bio6.jpg",
     pattern: "05",
     num: "05",
   },
   {
     icon: <Video className="w-8 h-8" />,
     title: "Recorded Video Lectures",
-    desc: "Missed a class? No problem — LMS portal par har lecture ki HD recording access karo 24×7 kisi bhi device pe — unlimited views.",
+    desc: "Missed a class? No problem — LMS portal par har lecture ki HD recording access karo 24x7 kisi bhi device pe — unlimited views.",
     stat: "On-Demand Access",
     color: "#DC2626",
-    gradient: "from-[#B91C1C] via-[#DC2626] to-[#F87171]",
+    image: "https://poorvucenter.yale.edu/sites/default/files/2025-03/Tsai_Speaker_Monitor_16x9.jpg",
     pattern: "06",
     num: "06",
   },
@@ -104,7 +104,7 @@ const perks = [
 
 export default function InfraSection() {
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-b from-[#FDFBF7] via-white to-[#FDFBF7] overflow-hidden">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-white via-white to-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full opacity-30 blur-3xl pointer-events-none" style={{ backgroundColor: "#1D4ED820" }}></div>
         <div className="absolute top-1/3 -right-24 w-80 h-80 rounded-full opacity-30 blur-3xl pointer-events-none" style={{ backgroundColor: "#0F2C5915" }}></div>
@@ -120,11 +120,11 @@ export default function InfraSection() {
             Serious Aspirants
           </h2>
           <p className="text-[13px] sm:text-[15px] md:text-[16px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed hidden sm:block">
-            Kota-level infrastructure, right here in Varanasi. Smart classrooms, premium labs, and dedicated study zones —
-            everything your child needs to crack JEE &amp; NEET without leaving home.
+            Kota-level infrastructure, right here in Bharatpur. Smart classrooms, premium labs, and dedicated study zones —
+            everything your child needs to crack IIT JEE &amp; NEET without leaving home.
           </p>
           <p className="text-[13px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed sm:hidden">
-            Kota-level infrastructure in Varanasi — smart classrooms, labs &amp; study zones.
+            Kota-level infrastructure in Bharatpur — smart classrooms, labs &amp; study zones.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function InfraSection() {
           <div className="relative h-56 sm:h-72 md:h-80">
             <Image
               src={BANNER_IMG}
-              alt="Modern TRI-S CLASSES Classroom with Digital Board"
+              alt="Modern HIGH Q ACADEMY Classroom with Digital Board"
               fill
               className="object-cover w-full"
               priority={false}
@@ -159,7 +159,7 @@ export default function InfraSection() {
                     Meets <span className="text-[#93C5FD]">Excellence.</span>
                   </h3>
                   <p className="text-[12px] sm:text-[14px] text-white/70 max-w-lg leading-relaxed hidden sm:block">
-                    10,000+ sq. ft. of state-of-the-art learning space designed specifically for focused JEE &amp; NEET preparation.
+                    10,000+ sq. ft. of state-of-the-art learning space designed specifically for focused IIT JEE &amp; NEET preparation.
                   </p>
                 </div>
               </div>
@@ -173,20 +173,18 @@ export default function InfraSection() {
               key={i}
               className="group relative bg-white rounded-2xl shadow-[0_6px_30px_-15px_rgba(15,44,89,0.2)] hover:shadow-[0_18px_50px_-20px_rgba(15,44,89,0.35)] transition-all duration-500 ease-out overflow-hidden border border-[#EAE5DC]/70 hover:border-[#1D4ED8]/25 hover:-translate-y-1"
             >
-              <div className={`relative h-32 sm:h-36 bg-gradient-to-br ${item.gradient} overflow-hidden`}>
-                <div
-                  className="absolute -right-8 -top-8 text-[120px] sm:text-[140px] font-black leading-none opacity-[0.08] select-none pointer-events-none"
-                  style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", color: "white" }}
-                >
-                  {item.num}
-                </div>
-                <div className="absolute inset-0 opacity-[0.08]" style={{
-                  backgroundImage: `radial-gradient(circle at 20% 30%, white 1px, transparent 1px), radial-gradient(circle at 75% 70%, white 1px, transparent 1px)`,
-                  backgroundSize: "22px 22px, 18px 18px",
-                }}></div>
-                <div className="absolute bottom-5 left-5 flex items-center gap-3">
-                  <div className="w-14 h-14 rounded-2xl flex items-center justify-center shadow-2xl backdrop-blur-sm text-white border border-white/25"
-                    style={{ backgroundColor: "rgba(255,255,255,0.18)" }}
+              <div className="relative h-44 sm:h-48 overflow-hidden">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  fill
+                  className="object-cover w-full transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 flex items-center gap-3">
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center shadow-lg text-white"
+                    style={{ backgroundColor: item.color }}
                   >
                     {item.icon}
                   </div>
@@ -194,16 +192,11 @@ export default function InfraSection() {
                     <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/60 mb-0.5">
                       Feature {item.num}
                     </div>
-                    <div className="text-white/90 text-[11px] font-semibold flex items-center gap-1">
-                      <Check className="w-3 h-3 text-white/90" />
+                    <div className="text-white text-[12px] font-bold flex items-center gap-1">
+                      <Check className="w-3 h-3 text-white" />
                       {item.stat}
                     </div>
                   </div>
-                </div>
-                <div className="absolute top-4 right-4 w-9 h-9 rounded-xl flex items-center justify-center shadow-lg text-white"
-                  style={{ backgroundColor: "rgba(255,255,255,0.22)", border: "1px solid rgba(255,255,255,0.3)" }}
-                >
-                  <Sparkles className="w-4 h-4" />
                 </div>
               </div>
 
@@ -250,7 +243,7 @@ export default function InfraSection() {
           <div className="relative p-8 sm:p-10 md:p-12 text-center">
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/85 text-[12px] font-bold px-4 py-1.5 rounded-full mb-5 tracking-wide">
               <MapPin className="w-3.5 h-3.5 text-[#93C5FD]" />
-              Gilat Bazar, Shivpur — Varanasi
+              Ft. Road, Sector-3, Bharatpur, Rajasthan
             </div>
             <h3 className="font-heading text-[24px] sm:text-[30px] md:text-[36px] font-extrabold text-white leading-tight mb-3">
               See it for Yourself.
@@ -265,15 +258,15 @@ export default function InfraSection() {
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <a
-                href="tel:09807678581"
+                href="tel:08130705508"
                 className="inline-flex items-center gap-2 hover:brightness-110 text-white font-bold text-[14px] sm:text-[15px] px-7 sm:px-8 py-3.5 rounded-full transition-all duration-200 shadow-[0_10px_30px_-10px_rgba(29,78,216,0.7)]"
                 style={{ backgroundColor: SECONDARY }}
               >
                 <Phone className="w-4.5 h-4.5" />
-                Call: 098076 78581
+                Call: 081307 05508
               </a>
               <a
-                href="https://maps.google.com/?q=Panchkoshi+Rd,+Jai+Nagar+Colony,+Gilat+Bazar,+Varanasi"
+                href="https://maps.google.com/?q=100+Ft+Road+near+Prem+Garden+Marriage+Home+Sector+3+UIT+Colony+Bharatpur+Rajasthan+321001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-white font-bold text-[14px] sm:text-[15px] px-7 sm:px-8 py-3.5 rounded-full border border-white/30 transition-all duration-200 hover:bg-white/10 backdrop-blur-sm"

@@ -24,28 +24,32 @@ const SECONDARY_HOVER = "#1E40AF";
 const STUDY_IMG = "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1000&q=80";
 
 const classes = [
+  "Class 6th",
+  "Class 7th",
+  "Class 8th",
   "Class 9th",
   "Class 10th",
   "Class 11th (JEE)",
   "Class 11th (NEET)",
   "Class 12th (JEE)",
   "Class 12th (NEET)",
+  "NTSE Preparation",
+  "Olympiad Preparation",
   "Dropper (JEE)",
   "Dropper (NEET)",
-  "Class 6th–8th (Foundation)",
 ];
 
 const trustBadges = [
-  { icon: <Target className="w-3.5 h-3.5" />, label: "JEE & NEET Expert Faculty" },
+  { icon: <Target className="w-3.5 h-3.5" />, label: "IIT JEE & NEET Expert Faculty" },
   { icon: <Building2 className="w-3.5 h-3.5" />, label: "Smart Digital Classrooms" },
   { icon: <ClipboardList className="w-3.5 h-3.5" />, label: "Weekly Test Series" },
   { icon: <HandshakeIcon className="w-3.5 h-3.5" />, label: "1-on-1 Doubt Sessions" },
 ];
 
 const uspList = [
-  { icon: <GraduationCap className="w-4 h-4" />, text: "Faculty from IITs, NITs & AIIMS" },
-  { icon: <IndianRupee className="w-4 h-4" />, text: "Most Affordable Fees in Varanasi" },
-  { icon: <Clock4Icon className="w-4 h-4" />, text: "Open 24 Hours — Doubt Anytime" },
+  { icon: <GraduationCap className="w-4 h-4" />, text: "IIT & Medical Expert Faculty" },
+  { icon: <IndianRupee className="w-4 h-4" />, text: "Most Affordable Fees in Bharatpur" },
+  { icon: <Clock4Icon className="w-4 h-4" />, text: "NTSE & Olympiad Preparation" },
   { icon: <ShieldCheck className="w-4 h-4" />, text: "100% Syllabus Completion Guarantee" },
 ];
 
@@ -63,19 +67,19 @@ export default function LeadFormSection() {
   };
 
   return (
-    <section className="bg-[#FDFBF7] py-6 md:py-10">
+    <section className="bg-white py-6 md:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 
           <div>
             <div className="inline-flex items-center gap-2 border border-[#0F2C59]/15 text-[#0F2C59] lg:text-[12px] text-[10px] font-bold px-4 py-1.5 rounded-full mb-4 tracking-wide" style={{ backgroundColor: "#0F2C5910" }}>
               <Trophy className="w-3.5 h-3.5" style={{ color: SECONDARY }} />
-              <span>#1 Ranked Coaching — Shivpur &amp; Gilat Bazar, Varanasi</span>
+              <span>#1 Ranked Coaching — Bharatpur, Rajasthan</span>
             </div>
 
             <h1 className="font-heading text-[22px] sm:text-[30px] lg:text-[42px] font-extrabold text-[#0F2C59] leading-[1.2] tracking-tight mb-3">
               Build a Solid Foundation for{" "}
-              <span style={{ color: SECONDARY }}>JEE, NEET</span>{" "}
+              <span style={{ color: SECONDARY }}>IIT JEE, NEET</span>{" "}
               &amp; Board Exams with{" "}
               <span className="relative inline-block">
                 Expert Mentors
@@ -85,7 +89,7 @@ export default function LeadFormSection() {
             </h1>
 
             <p className="text-[13px] sm:text-[15px] text-[#4B5563] leading-relaxed mb-4 max-w-lg">
-              Varanasi&apos;s most trusted coaching — smart classrooms, doubt sessions &amp; personal mentorship.
+              Bharatpur&apos;s most trusted coaching — IIT JEE, NEET, NTSE, Olympiad &amp; Foundation classes with expert faculty &amp; personal mentorship.
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4 max-w-lg">
@@ -116,7 +120,7 @@ export default function LeadFormSection() {
             <div className="relative overflow-hidden rounded-2xl mb-5 h-48 sm:h-52 card-shadow border border-[#EAE5DC] group">
               <Image
                 src={STUDY_IMG}
-                alt="Students preparing for JEE NEET at TRI-S CLASSES Varanasi"
+                alt="Students preparing for IIT JEE NEET at High Q Academy Bharatpur"
                 fill
                 className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -127,7 +131,7 @@ export default function LeadFormSection() {
                   ⭐ 500+ Happy Students
                 </div>
                 <div className="font-heading font-extrabold text-[16px] sm:text-[20px] text-white leading-tight">
-                  Join Varanasi&apos;s Fastest Growing Coaching
+                  Join Bharatpur&apos;s Fastest Growing Coaching
                 </div>
                 <div className="hidden sm:block text-[11px] text-white/65 font-semibold mt-1">
                   Smart classes • Expert faculty • Affordable fees

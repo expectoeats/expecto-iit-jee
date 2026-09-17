@@ -18,7 +18,7 @@ const reviews = [
     rating: 5,
     date: "2 months ago",
     review:
-      "Best coaching institute with lowest fees in entire area of Shivpur and Gilat Bazar. The teachers are very dedicated and always ready to help. My daughter's result improved drastically after joining TRI-S CLASSES.",
+      "Best coaching institute with lowest fees in entire Bharatpur area. The teachers are very dedicated and always ready to help. My daughter's result improved drastically after joining High Q Academy.",
     tag: "Coaching",
     verified: true,
   },
@@ -28,7 +28,7 @@ const reviews = [
     rating: 5,
     date: "3 months ago",
     review:
-      "Best coaching institute in shivpur area. Very knowledgeable faculty and excellent study material. The personal attention given to each student is remarkable. Highly recommended for JEE and NEET aspirants.",
+      "Best coaching institute in Bharatpur. Very knowledgeable faculty and excellent study material. The personal attention given to each student is remarkable. Highly recommended for JEE and NEET aspirants.",
     tag: "Talented Teachers",
     verified: true,
   },
@@ -58,7 +58,7 @@ const reviews = [
     rating: 5,
     date: "5 months ago",
     review:
-      "Very satisfied with TRI-S CLASSES. Polite staff, supportive faculty, and a great learning environment. The fees are very reasonable for the quality of education provided.",
+      "Very satisfied with High Q Academy. Polite staff, supportive faculty, and a great learning environment. The fees are very reasonable for the quality of education provided.",
     tag: "Polite Staff",
     verified: true,
   },
@@ -100,7 +100,7 @@ export default function ReviewsSection() {
       : reviews.filter((r) => r.tag === activeFilter);
 
   return (
-    <section id="reviews" className="py-16 md:py-20 bg-[#FDFBF7]">
+    <section id="reviews" className="py-16 md:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-10">
@@ -232,7 +232,7 @@ export default function ReviewsSection() {
         {/* CTA to more reviews */}
         <div className="mt-10 text-center">
           <a
-            href="https://maps.google.com/?cid=TRI-S-CLASSES-VARANASI"
+            href="https://maps.google.com/?cid=HIGH-Q-ACADEMY-BHARATPUR"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white border-2 border-[#0F2C59] text-[#0F2C59] font-bold text-[14px] px-6 py-3 rounded-full hover:bg-[#0F2C59] hover:text-white transition-all duration-200 card-shadow"

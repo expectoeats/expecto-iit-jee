@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <nav
       className={`sticky top-0 z-40 transition-all duration-300 ${
-        scrolled ? "glass-nav shadow-md" : "bg-[#FDFBF7]/95"
+        scrolled ? "glass-nav shadow-md" : "bg-white/95"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="relative w-12 h-12 flex-shrink-0 rounded-full overflow-hidden border-2 border-[#0F2C59]/15 shadow-md group-hover:scale-105 transition-transform duration-200 bg-white">
               <Image
                 src="/logo.jpg"
-                alt="TRI-S Classes Logo"
+                alt="High Q Academy Logo"
                 width={48}
                 height={48}
                 className="w-full h-full object-contain p-0.5"
@@ -48,10 +48,10 @@ export default function Navbar() {
             </div>
             <div className="leading-tight">
               <div className="font-heading font-extrabold text-[15px] sm:text-[16px] text-[#0F2C59] leading-tight tracking-tight">
-                TRI-S CLASSES
+                HIGH Q ACADEMY
               </div>
               <div className="text-[10px] sm:text-[11px] font-semibold tracking-wide" style={{ color: SECONDARY }}>
-                त्रि-स क्लासेज
+                हाईक्यू एकेडमी
               </div>
             </div>
           </a>

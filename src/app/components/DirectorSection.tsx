@@ -45,13 +45,13 @@ const pillars = [
   {
     icon: <HelpCircle className="w-7 h-7" />,
     title: "Doubt Removal & Mentorship",
-    desc: "Dedicated doubt counters after every class + 24×7 doubt support on WhatsApp. Each student gets a personal mentor for study plan, performance tracking & motivation.",
+    desc: "Dedicated doubt counters after every class + 24x7 doubt support on WhatsApp. Each student gets a personal mentor for study plan, performance tracking & motivation.",
     tag: "1on1 Attention",
   },
   {
     icon: <IndianRupee className="w-7 h-7" />,
     title: "Affordable & Transparent Fees",
-    desc: "Varanasi ki most reasonable fees structure. No hidden charges, no pressure tactics. Scholarships available for meritorious & financially weak students every month.",
+    desc: "Bharatpur ki most reasonable fees structure. No hidden charges, no pressure tactics. Scholarships available for meritorious & financially weak students every month.",
     tag: "Value for Money",
   },
 ];
@@ -60,7 +60,7 @@ const pillars2 = [
   {
     icon: <Users2 className="w-7 h-7" />,
     title: "Small Batch Size",
-    desc: "Max 40–45 students per batch so every child gets personal attention. Faculty knows every student by name and tracks their weekly progress individually.",
+    desc: "Max 40-45 students per batch so every child gets personal attention. Faculty knows every student by name and tracks their weekly progress individually.",
     tag: "Focused Learning",
   },
   {
@@ -87,7 +87,7 @@ const vmv = [
   {
     icon: <Eye className="w-6 h-6" />,
     title: "Our Vision",
-    desc: "TRI-S CLASSES ka sapna hai ki Varanasi ka har wo student jo IIT ya Medical banana chahta hai, usko Kota ya Delhi jaane ki zaroorat na pade. Hum yahi pe, Varanasi mein, woh level ki coaching dena chahte hain jisse humaari nagri ke bacche Top AIR laa sakein.",
+    desc: "High Q Academy ka sapna hai ki Bharatpur ka har wo student jo IIT ya Medical banana chahta hai, usko Kota ya Delhi jaane ki zaroorat na pade. Hum yahi pe, Bharatpur mein, woh level ki coaching dena chahte hain jisse humaari nagri ke bacche Top AIR laa sakein.",
   },
   {
     icon: <Target className="w-6 h-6" />,
@@ -97,7 +97,7 @@ const vmv = [
   {
     icon: <Heart className="w-6 h-6" />,
     title: "Our Values",
-    desc: "सत्यम् — शिवम् — सुन्दरम् । Hamare har decision ke peeche sirf ek hi cheez hoti hai — student ki bhalai. Kabhi bhi education ke saath compromise nahi. Kabhi bhi jhootha promise nahi. Shiksha hamara dharam hai.",
+    desc: "Satyam — Shivam — Sundaram. Hamare har decision ke peeche sirf ek hi cheez hoti hai — student ki bhalai. Kabhi bhi education ke saath compromise nahi. Kabhi bhi jhootha promise nahi. Shiksha hamara dharam hai.",
   },
 ];
 
@@ -110,24 +110,24 @@ const stats = [
 
 export default function DirectorSection() {
   return (
-    <section id="director" className="py-16 md:py-20 bg-[#FDFBF7]">
+    <section id="director" className="py-16 md:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 text-[12px] font-bold px-4 py-1.5 rounded-full mb-4 tracking-wider uppercase" style={{ backgroundColor: `${SECONDARY}14`, color: SECONDARY }}>
             <Medal className="w-3.5 h-3.5" />
-            About TRI-S CLASSES
+            About HIGH Q ACADEMY
           </div>
           <h2 className="font-heading text-[24px] sm:text-[30px] md:text-[40px] font-extrabold leading-tight mb-3" style={{ color: PRIMARY }}>
-            Varanasi&apos;s Most Trusted{" "}
-            <span style={{ color: SECONDARY }}>JEE &amp; NEET Coaching</span>
+            Bharatpur&apos;s Most Trusted{" "}
+            <span style={{ color: SECONDARY }}>IIT JEE &amp; NEET Coaching</span>
           </h2>
           <p className="text-[13px] sm:text-[15px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed hidden sm:block">
-            TRI-S CLASSES ki sthapna ek hi clear nishay ke saath hui hai —
-            quality education Varanasi ke har bacche tak, uski aam zindagi mein,
+            HIGH Q ACADEMY ki sthapna ek hi clear nishay ke saath hui hai —
+            quality education Bharatpur ke har bacche tak, uski aam zindagi mein,
             uski bhasha mein, aur uske budget mein.
           </p>
           <p className="text-[13px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed sm:hidden">
-            Quality education Varanasi ke har bacche tak — uski bhasha mein, uske budget mein.
+            Quality education Bharatpur ke har bacche tak — uski bhasha mein, uske budget mein.
           </p>
         </div>
 
@@ -145,7 +145,7 @@ export default function DirectorSection() {
                   hai.&rdquo;
                 </h3>
                 <p className="text-[13px] text-white/70 leading-relaxed mb-4 hidden sm:block">
-                  TRI-S mein hum kabhi bhi kisi student ko weak nahi kehte.
+                  HIGH Q ACADEMY mein hum kabhi bhi kisi student ko weak nahi kehte.
                   Hum kehte hain — &ldquo;abhi weak hai, par kal top karega.&rdquo;
                   Aur yahi hamara confidence hamare students mein bhi jaata hai.
                   Ek sahi teacher sirf padhta nahi, bacha banata hai.
@@ -154,10 +154,10 @@ export default function DirectorSection() {
                   &ldquo;Abhi weak hai, par kal top karega.&rdquo; — Yehi hamara confidence hai.
                 </p>
                 <div className="flex items-center gap-3 mt-auto pt-4 border-t border-white/10">
-                  <div className="w-14 h-14 rounded-xl flex items-center justify-center overflow-hidden border-2 border-white/20 bg-white">
+                    <div className="w-14 h-14 rounded-xl flex items-center justify-center overflow-hidden border-2 border-white/20 bg-white">
                     <Image
                       src="/logo.jpg"
-                      alt="TRI-S CLASSES Founder Logo"
+                      alt="HIGH Q ACADEMY Founder Logo"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain p-0.5"
@@ -165,7 +165,7 @@ export default function DirectorSection() {
                   </div>
                   <div>
                     <div className="font-heading font-bold text-[16px] text-white leading-tight">
-                      TRI-S CLASSES
+                      HIGH Q ACADEMY
                     </div>
                     <div className="text-[12px] text-white/50 font-semibold mt-0.5">
                       Founder &amp; Academic Head
@@ -183,24 +183,24 @@ export default function DirectorSection() {
                     <p className="text-[13px] sm:text-[15px] text-[#374151] leading-[1.8] italic hidden sm:block">
                       &ldquo;हमारा लक्ष्य केवल सिलेबस पढ़ना नहीं, बल्कि हर उस छात्र को
                       आत्मविश्वास देना है जो अभी तक किसी ने seriously नहीं लिया।
-                      TRI-S में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
+                      HIGH Q ACADEMY में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
                       क्योंकि हमें पता है, एक सही मार्गदर्शन और सही environment से
                       हर बच्चा <strong style={{ color: SECONDARY }}>Top Rank</strong> ला सकता है।&rdquo;
                     </p>
                     <p className="text-[13px] text-[#374151] leading-[1.8] italic sm:hidden">
-                      &ldquo;TRI-S में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
+                      &ldquo;HIGH Q ACADEMY में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
                       एक सही मार्गदर्शन से हर बच्चा <strong style={{ color: SECONDARY }}>Top Rank</strong> ला सकता है।&rdquo;
                     </p>
                   </div>
 
                   <div className="hidden sm:grid grid-cols-1 gap-2.5">
                     {[
-                      "Small batch size — max 45 students",
-                      "Weekly PTM every Saturday 4 PM",
-                      "Complete syllabus 2 months before exam",
-                      "Affordable fees — zero hidden charges",
-                      "24×7 doubt support on WhatsApp",
-                      "Scholarship test every Sunday",
+                "Small batch size — max 45 students",
+                       "Weekly PTM every Saturday 4 PM",
+                       "Complete syllabus 2 months before exam",
+                       "Affordable fees — zero hidden charges",
+                       "24x7 doubt support on WhatsApp",
+                       "Scholarship test every Sunday",
                     ].map((item) => (
                       <div key={item} className="flex items-start gap-2.5 text-[13px] font-semibold text-[#374151]">
                         <span className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${SECONDARY}18`, color: SECONDARY }}>
@@ -215,7 +215,7 @@ export default function DirectorSection() {
                   <div className="relative rounded-2xl overflow-hidden h-56 md:h-full card-shadow border border-[#EAE5DC] group">
                     <Image
                       src={DIRECTOR_IMG}
-                      alt="TRI-S CLASSES Academic Director teaching students"
+                      alt="HIGH Q ACADEMY Academic Director teaching students"
                       fill
                       className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 30vw"
@@ -241,9 +241,9 @@ export default function DirectorSection() {
         <div className="mb-14">
           <div className="relative overflow-hidden rounded-3xl card-shadow mb-10 border border-[#EAE5DC]">
             <div className="relative h-40 sm:h-52 md:h-60">
-              <Image
+                <Image
                 src={FACULTY_IMG}
-                alt="TRI-S CLASSES Expert Faculty Team Varanasi"
+                alt="HIGH Q ACADEMY Expert Faculty Team Bharatpur"
                 fill
                 className="object-cover w-full"
                 sizes="100vw"
@@ -264,10 +264,10 @@ export default function DirectorSection() {
           </div>
 
           <div className="text-center mb-8">
-            <h3 className="font-heading text-[24px] md:text-[30px] font-extrabold leading-tight mb-2" style={{ color: PRIMARY }}>
-              The <span style={{ color: SECONDARY }}>Eight Pillars</span> of TRI-S
+              <h3 className="font-heading text-[24px] md:text-[30px] font-extrabold leading-tight mb-2" style={{ color: PRIMARY }}>
+              The <span style={{ color: SECONDARY }}>Eight Pillars</span> of HIGH Q ACADEMY
             </h3>
-            <p className="text-[14px] text-[#6B7280]">Ye 8 cheezein humein Varanasi ke baaki coaching se alag banati hain.</p>
+            <p className="text-[14px] text-[#6B7280]">Ye 8 cheezein humein Bharatpur ke baaki coaching se alag banati hain.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[...pillars, ...pillars2].map((p, i) => (
@@ -294,7 +294,7 @@ export default function DirectorSection() {
         </div>
 
         <div className="mb-14 bg-white border border-[#EAE5DC] rounded-3xl overflow-hidden card-shadow">
-          <div className="px-8 md:px-10 pt-8 pb-6 border-b border-[#EAE5DC] text-center" style={{ backgroundColor: "#FDFBF7" }}>
+          <div className="px-8 md:px-10 pt-8 pb-6 border-b border-[#EAE5DC] text-center" style={{ backgroundColor: "#FFFFFF" }}>
             <h3 className="font-heading text-[22px] md:text-[26px] font-extrabold mb-2" style={{ color: PRIMARY }}>
               Vision <span style={{ color: SECONDARY }}>•</span> Mission <span style={{ color: SECONDARY }}>•</span> Values
             </h3>
@@ -302,7 +302,7 @@ export default function DirectorSection() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 divide-y lg:divide-y-0 lg:divide-x divide-[#EAE5DC]">
             {vmv.map((item, i) => (
-              <div key={i} className="p-5 sm:p-8 flex flex-col gap-3 hover:bg-[#FDFBF7] transition-colors duration-200">
+              <div key={i} className="p-5 sm:p-8 flex flex-col gap-3 hover:bg-white transition-colors duration-200">
                 <div className="flex items-center gap-3">
                   <div
                     className="w-12 h-12 rounded-xl flex items-center justify-center"

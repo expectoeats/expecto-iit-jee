@@ -26,7 +26,7 @@ export default function ResultsMarquee() {
               Our Recent Results
             </div>
             <div className="text-[11px] text-[#6B7280] font-semibold">
-              2024 — 25 Selections in JEE & NEET
+              2024 — 25 Selections in IIT JEE & NEET
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function ResultsMarquee() {
           {[...results, ...results].map((r, i) => (
             <div
               key={i}
-              className="flex items-center gap-3 bg-[#FDFBF7] border border-[#EAE5DC] rounded-xl px-4 py-2.5 card-shadow flex-shrink-0"
+              className="flex items-center gap-3 bg-white border border-[#EAE5DC] rounded-xl px-4 py-2.5 card-shadow flex-shrink-0"
             >
               <div
                 className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0"

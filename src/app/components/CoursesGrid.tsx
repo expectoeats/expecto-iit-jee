@@ -42,20 +42,20 @@ const courses = [
   },
   {
     id: "foundation",
-    name: "Foundation",
-    tagline: "Class 6th to 10th",
-    eligibility: "Class 6, 7, 8, 9, 10 Students",
+    name: "Foundation (6th–12th)",
+    tagline: "Board + Competitive Edge",
+    eligibility: "Class 6, 7, 8, 9, 10, 11, 12 Students",
     icon: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=500&q=80",
     mode: "Offline + Digital Board",
     color: "#7C3AED",
-    features: ["Science & Maths Mastery", "Olympiad Preparation", "Concept Building"],
+    features: ["Science & Maths Mastery", "NTSE & Olympiad Prep", "Concept Building"],
     badge: "Early Advantage",
   },
 ];
 
 export default function CoursesGrid() {
   return (
-    <section id="courses" className="py-16 md:py-20 bg-[#FDFBF7]">
+    <section id="courses" className="py-16 md:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 text-[#1D4ED8] text-[12px] font-bold px-4 py-1.5 rounded-full mb-4 tracking-wider uppercase" style={{ backgroundColor: `${SECONDARY}12` }}>
@@ -67,10 +67,10 @@ export default function CoursesGrid() {
           </h2>
           <p className="mt-2 text-[13px] sm:text-[15px] text-[#6B7280] max-w-xl mx-auto leading-relaxed hidden sm:block">
             Expert-crafted batches with smart digital classrooms, weekly tests,
-            and dedicated doubt-removal sessions — right in Varanasi.
+            and dedicated doubt-removal sessions — right in Bharatpur.
           </p>
           <p className="mt-2 text-[13px] text-[#6B7280] max-w-xl mx-auto leading-relaxed sm:hidden">
-            Smart classrooms &amp; weekly tests — right in Varanasi.
+            Smart classrooms &amp; weekly tests — right in Bharatpur.
           </p>
         </div>
 
@@ -84,13 +84,6 @@ export default function CoursesGrid() {
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl"
                 style={{ backgroundColor: `${course.color}0A` }}
               ></div>
-
-              <div
-                className="absolute top-3 right-3 text-[10px] font-bold px-2 py-0.5 rounded-full text-white"
-                style={{ backgroundColor: course.color }}
-              >
-                {course.badge}
-              </div>
 
               <div className="relative z-10 mb-4 w-full h-36 mx-auto rounded-xl overflow-hidden border border-[#EAE5DC] group-hover:border-[#1D4ED8]/30 transition-colors">
                 <Image
