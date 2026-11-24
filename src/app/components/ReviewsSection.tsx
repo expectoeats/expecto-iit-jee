@@ -18,7 +18,7 @@ const reviews = [
     rating: 5,
     date: "2 months ago",
     review:
-      "Best coaching institute with lowest fees in entire Bharatpur area. The teachers are very dedicated and always ready to help. My daughter's result improved drastically after joining High Q Academy.",
+      "One of the best coaching institutes in the Katra area of Prayagraj. The teachers are very dedicated and always ready to help. My concepts in Science and Maths improved a lot after joining TSS Acharya.",
     tag: "Coaching",
     verified: true,
   },
@@ -28,7 +28,7 @@ const reviews = [
     rating: 5,
     date: "3 months ago",
     review:
-      "Best coaching institute in Bharatpur. Very knowledgeable faculty and excellent study material. The personal attention given to each student is remarkable. Highly recommended for JEE and NEET aspirants.",
+      "Very supportive faculty, especially Ankit Sir. The personal attention given to each student is remarkable. Highly recommended for CBSE and ICSE students.",
     tag: "Talented Teachers",
     verified: true,
   },
@@ -38,8 +38,8 @@ const reviews = [
     rating: 5,
     date: "1 month ago",
     review:
-      "Great learning experience with dedicated teachers and excellent study material. The digital boards make complex topics very easy to understand. The staff is very polite and supportive.",
-    tag: "Medical Coaching",
+      "Great learning experience with dedicated teachers. The AC classrooms and smartboards make difficult topics very easy to understand. Doubt-clearing sessions are really helpful.",
+    tag: "Doubt Clearing",
     verified: true,
   },
   {
@@ -48,7 +48,7 @@ const reviews = [
     rating: 5,
     date: "4 months ago",
     review:
-      "Outstanding coaching institute! The test series is very helpful and the doubt sessions are excellent. Faculty explains concepts very clearly. My JEE preparation improved significantly.",
+      "Outstanding coaching institute! The doubt-clearing sessions are excellent and the faculty explains concepts very clearly. My school exam results improved significantly.",
     tag: "Coaching",
     verified: true,
   },
@@ -58,7 +58,7 @@ const reviews = [
     rating: 5,
     date: "5 months ago",
     review:
-      "Very satisfied with High Q Academy. Polite staff, supportive faculty, and a great learning environment. The fees are very reasonable for the quality of education provided.",
+      "Very satisfied with TSS Acharya. Polite staff, supportive faculty, and a friendly, encouraging learning environment.",
     tag: "Polite Staff",
     verified: true,
   },
@@ -68,13 +68,13 @@ const reviews = [
     rating: 4,
     date: "6 months ago",
     review:
-      "Good coaching center for foundation classes. My son is in class 9 and his understanding of Science and Maths has improved a lot. Teachers are patient and supportive.",
-    tag: "Foundation",
+      "Good coaching center for Science and Maths. My confidence has improved a lot after joining. Teachers are patient and supportive.",
+    tag: "Friendly Environment",
     verified: true,
   },
 ];
 
-const filterChips = ["All", "Coaching", "Medical Coaching", "Talented Teachers", "Polite Staff"];
+const filterChips = ["All", "Coaching", "Doubt Clearing", "Talented Teachers", "Polite Staff", "Friendly Environment"];
 
 function StarRating({ rating, size = "sm" }: { rating: number; size?: "sm" | "lg" }) {
   return (
@@ -232,7 +232,7 @@ export default function ReviewsSection() {
         {/* CTA to more reviews */}
         <div className="mt-10 text-center">
           <a
-            href="https://maps.google.com/?cid=HIGH-Q-ACADEMY-BHARATPUR"
+            href="https://www.google.com/maps/search/?api=1&query=TSS+Acharya+Katra+Prayagraj"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white border-2 border-[#0F2C59] text-[#0F2C59] font-bold text-[14px] px-6 py-3 rounded-full hover:bg-[#0F2C59] hover:text-white transition-all duration-200 card-shadow"

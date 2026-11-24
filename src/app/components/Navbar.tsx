@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="relative w-12 h-12 flex-shrink-0 rounded-full overflow-hidden border-2 border-[#0F2C59]/15 shadow-md group-hover:scale-105 transition-transform duration-200 bg-white">
               <Image
                 src="/logo.jpg"
-                alt="High Q Academy Logo"
+                alt="TSS Acharya Logo"
                 width={48}
                 height={48}
                 className="w-full h-full object-contain p-0.5"
@@ -48,10 +48,10 @@ export default function Navbar() {
             </div>
             <div className="leading-tight">
               <div className="font-heading font-extrabold text-[15px] sm:text-[16px] text-[#0F2C59] leading-tight tracking-tight">
-                HIGH Q ACADEMY
+                TSS ACHARYA
               </div>
               <div className="text-[10px] sm:text-[11px] font-semibold tracking-wide" style={{ color: SECONDARY }}>
-                हाईक्यू एकेडमी
+                टीएसएस आचार्य
               </div>
             </div>
           </a>

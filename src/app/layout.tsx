@@ -15,15 +15,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "High Q Academy — IIT JEE, NEET & Foundation Coaching in Bharatpur",
+  title: "TSS Acharya — CBSE & ICSE Coaching for Class 6 to 12 in Prayagraj",
   description:
-    "Premier coaching institute in Bharatpur, Rajasthan. Expert mentors for IIT JEE, NEET, NTSE, Olympiads & Class 6–12 Foundation. Admissions open for 2026–27.",
+    "TSS Acharya is a highly rated coaching institute in the Katra area of Prayagraj for CBSE and ICSE students from Class 6 to 12. Air-conditioned smartboard classrooms, supportive faculty, strong concepts in Science and Mathematics, and dedicated doubt-clearing sessions.",
   keywords:
-    "coaching institute bharatpur, jee coaching bharatpur, neet coaching bharatpur, high q academy, nti olympiad coaching bharatpur, foundation classes bharatpur",
+    "tss acharya, tss acharya prayagraj, coaching in katra prayagraj, cbse coaching prayagraj, icse coaching prayagraj, class 6 to 12 tuition prayagraj, science maths coaching prayagraj, ankit sir",
   openGraph: {
-    title: "High Q Academy — IIT JEE, NEET & Foundation Coaching",
+    title: "TSS Acharya — CBSE & ICSE Coaching for Class 6 to 12 in Prayagraj",
     description:
-      "Premier IIT JEE, NEET, NTSE, Olympiad & Foundation coaching in Bharatpur. Smart classrooms, expert faculty, personal mentorship.",
+      "Highly rated CBSE & ICSE coaching for Class 6 to 12 in Katra, Prayagraj. Smartboard classrooms, supportive faculty, personal attention.",
     type: "website",
   },
 };
