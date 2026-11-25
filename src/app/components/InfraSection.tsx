@@ -36,9 +36,9 @@ type InfraItem = {
 const infraItems: InfraItem[] = [
   {
     icon: <Building2 className="w-8 h-8" />,
-    title: "Large Spacious Classrooms",
-    desc: "Spacious, well-ventilated AC classrooms with ergonomic seating for 45+ students — distraction-free, natural light, and noise-proof walls.",
-    stat: "100+ Seat Capacity",
+    title: "Modern AC Classrooms",
+    desc: "Modern, air-conditioned classrooms with comfortable seating — a calm, distraction-free space to focus on studies.",
+    stat: "Fully Air-Conditioned",
     color: "#0F2C59",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqLEV0UAA1FF3kAPqjlHDl1IdGo119kvdOa8ABh8b0CBARFxQ8caA8d5Cw&s=10",
     pattern: "01",
@@ -46,9 +46,9 @@ const infraItems: InfraItem[] = [
   },
   {
     icon: <Tv2 className="w-8 h-8" />,
-    title: "High-Tech Digital Boards",
-    desc: "Full HD interactive smart boards with 3D animations, annotated notes & wireless screen sharing in every classroom for visual learning.",
-    stat: "All Classrooms Equipped",
+    title: "Smartboard Teaching",
+    desc: "Classrooms equipped with smartboards that make Science and Maths concepts visual and easy to understand.",
+    stat: "Smartboard Equipped",
     color: SECONDARY,
     image: "https://www.studynlearn.com/blog/upload/blogs/dca957018797348188d9966b3b1c3fb511cfe658.png",
     pattern: "02",
@@ -56,9 +56,9 @@ const infraItems: InfraItem[] = [
   },
   {
     icon: <ClipboardList className="w-8 h-8" />,
-    title: "Regular Test Series",
-    desc: "Weekly chapter-wise tests, monthly full-syllabus JEE/NEET pattern mocks + OMR-based practice with detailed scorecard analytics.",
-    stat: "40+ Tests Per Year",
+    title: "School Exam Preparation",
+    desc: "Academic support for CBSE and ICSE students from Class 6 to 12 that helps them excel in their school exams.",
+    stat: "CBSE & ICSE",
     color: "#059669",
     image: "https://l1coaching.in/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-09-at-23.23.42-1024x768.webp",
     pattern: "03",
@@ -66,9 +66,9 @@ const infraItems: InfraItem[] = [
   },
   {
     icon: <BookOpen className="w-8 h-8" />,
-    title: "Comprehensive Study Material",
-    desc: "Expert-curated printed booklets aligned with NCERT + latest exam patterns: concept theory, solved examples, DPPs, and revision notes.",
-    stat: "Includes DPPs & Notes",
+    title: "Concept Building in Science & Maths",
+    desc: "Step-by-step teaching focused on building strong concepts in Science and Mathematics.",
+    stat: "Strong Fundamentals",
     color: "#7C3AED",
     image: "https://static.vecteezy.com/system/resources/thumbnails/070/236/601/small/stack-of-textbooks-homework-time-in-study-desk-clean-editorial-photo.jpg",
     pattern: "04",
@@ -76,9 +76,9 @@ const infraItems: InfraItem[] = [
   },
   {
     icon: <FlaskConical className="w-8 h-8" />,
-    title: "Science Lab Access",
-    desc: "Fully equipped Physics, Chemistry & Biology labs with modern apparatus for NEET & Board practicals — hands-on learning, not just theory.",
-    stat: "Modern Equipment",
+    title: "Dedicated Doubt-Clearing",
+    desc: "Dedicated doubt-clearing sessions so every question gets answered — patiently and personally.",
+    stat: "Every Doubt Solved",
     color: "#D97706",
     image: "https://www.hillshigh.com/wp-content/uploads/2021/02/bio6.jpg",
     pattern: "05",
@@ -86,9 +86,9 @@ const infraItems: InfraItem[] = [
   },
   {
     icon: <Video className="w-8 h-8" />,
-    title: "Recorded Video Lectures",
-    desc: "Missed a class? No problem — LMS portal par har lecture ki HD recording access karo 24x7 kisi bhi device pe — unlimited views.",
-    stat: "On-Demand Access",
+    title: "Personalized Attention",
+    desc: "Supportive faculty, including popular mentors like Ankit Sir, give individual attention in an encouraging, friendly environment.",
+    stat: "Friendly Mentors",
     color: "#DC2626",
     image: "https://poorvucenter.yale.edu/sites/default/files/2025-03/Tsai_Speaker_Monitor_16x9.jpg",
     pattern: "06",
@@ -97,9 +97,9 @@ const infraItems: InfraItem[] = [
 ];
 
 const perks = [
-  { icon: <Wifi className="w-4 h-4" />, text: "High-Speed Wi-Fi Campus" },
-  { icon: <Users className="w-4 h-4" />, text: "Dedicated Self-Study Zone" },
-  { icon: <Sparkles className="w-4 h-4" />, text: "24×7 Doubt Counters" },
+  { icon: <Wifi className="w-4 h-4" />, text: "Air-Conditioned Classrooms" },
+  { icon: <Users className="w-4 h-4" />, text: "Smartboard Teaching" },
+  { icon: <Sparkles className="w-4 h-4" />, text: "Doubt-Clearing Sessions" },
 ];
 
 export default function InfraSection() {
@@ -112,19 +112,19 @@ export default function InfraSection() {
         <div className="text-center mb-14 relative z-10">
           <div className="inline-flex items-center gap-2 border border-[#0F2C59]/15 bg-white/80 backdrop-blur-sm text-[#0F2C59] text-[12px] font-bold px-4 py-1.5 rounded-full mb-5 tracking-wider uppercase shadow-sm">
             <Building2 className="w-3.5 h-3.5" style={{ color: SECONDARY }} />
-            World-Class Infrastructure
+            Modern Infrastructure
           </div>
           <h2 className="font-heading text-[26px] sm:text-[32px] md:text-[44px] font-extrabold leading-[1.1] tracking-tight mb-3" style={{ color: PRIMARY }}>
             An <span style={{ color: SECONDARY }}>Ecosystem</span> Built for
             <br className="hidden sm:block" />
-            Serious Aspirants
+            Serious Students
           </h2>
           <p className="text-[13px] sm:text-[15px] md:text-[16px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed hidden sm:block">
-            Kota-level infrastructure, right here in Bharatpur. Smart classrooms, premium labs, and dedicated study zones —
-            everything your child needs to crack IIT JEE &amp; NEET without leaving home.
+            Modern infrastructure, right here in Katra, Prayagraj. Air-conditioned classrooms, smartboards, and a friendly learning space —
+            everything your child needs to excel in school exams and beyond.
           </p>
           <p className="text-[13px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed sm:hidden">
-            Kota-level infrastructure in Bharatpur — smart classrooms, labs &amp; study zones.
+            Modern AC smartboard classrooms in Katra, Prayagraj.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function InfraSection() {
           <div className="relative h-56 sm:h-72 md:h-80">
             <Image
               src={BANNER_IMG}
-              alt="Modern HIGH Q ACADEMY Classroom with Digital Board"
+              alt="Modern TSS ACHARYA Classroom with Digital Board"
               fill
               className="object-cover w-full"
               priority={false}
@@ -159,7 +159,7 @@ export default function InfraSection() {
                     Meets <span className="text-[#93C5FD]">Excellence.</span>
                   </h3>
                   <p className="text-[12px] sm:text-[14px] text-white/70 max-w-lg leading-relaxed hidden sm:block">
-                    10,000+ sq. ft. of state-of-the-art learning space designed specifically for focused IIT JEE &amp; NEET preparation.
+                    Air-conditioned, smartboard-equipped classrooms designed for focused, concept-based learning.
                   </p>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function InfraSection() {
           <div className="relative p-8 sm:p-10 md:p-12 text-center">
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/85 text-[12px] font-bold px-4 py-1.5 rounded-full mb-5 tracking-wide">
               <MapPin className="w-3.5 h-3.5 text-[#93C5FD]" />
-              Ft. Road, Sector-3, Bharatpur, Rajasthan
+              Beli Road, Mumfordganj (New Katra), Prayagraj, Uttar Pradesh
             </div>
             <h3 className="font-heading text-[24px] sm:text-[30px] md:text-[36px] font-extrabold text-white leading-tight mb-3">
               See it for Yourself.
@@ -251,22 +251,22 @@ export default function InfraSection() {
               <span className="text-[#93C5FD]">Book a Free Campus Tour.</span>
             </h3>
             <p className="text-white/70 text-[13px] sm:text-[15px] mb-6 max-w-2xl mx-auto leading-relaxed hidden sm:block">
-              Visit our center, explore the classrooms &amp; labs, meet our faculty, and attend a complimentary demo lecture — absolutely no pressure, no hidden charges.
+              Visit our center, explore the classrooms, meet our faculty, and attend a complimentary demo lecture — absolutely no pressure, no hidden charges.
             </p>
             <p className="text-white/70 text-[13px] mb-6 max-w-2xl mx-auto leading-relaxed sm:hidden">
               Visit our center, meet faculty &amp; attend a free demo — no pressure.
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <a
-                href="tel:08130705508"
+                href="tel:+919005642857"
                 className="inline-flex items-center gap-2 hover:brightness-110 text-white font-bold text-[14px] sm:text-[15px] px-7 sm:px-8 py-3.5 rounded-full transition-all duration-200 shadow-[0_10px_30px_-10px_rgba(29,78,216,0.7)]"
                 style={{ backgroundColor: SECONDARY }}
               >
                 <Phone className="w-4.5 h-4.5" />
-                Call: 081307 05508
+                Call: 90056 42857
               </a>
               <a
-                href="https://maps.google.com/?q=100+Ft+Road+near+Prem+Garden+Marriage+Home+Sector+3+UIT+Colony+Bharatpur+Rajasthan+321001"
+                href="https://maps.google.com/?q=TSS+Acharya+23/14/2A+Beli+Road+Jagram+Chauraha+Mumfordganj+New+Katra+Prayagraj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-white font-bold text-[14px] sm:text-[15px] px-7 sm:px-8 py-3.5 rounded-full border border-white/30 transition-all duration-200 hover:bg-white/10 backdrop-blur-sm"

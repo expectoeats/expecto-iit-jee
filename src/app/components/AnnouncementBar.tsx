@@ -7,9 +7,9 @@ const SECONDARY_HOVER = "#1E40AF";
 
 const announcements = [
   "New Batches Starting from 1st September 2026 — Enroll Now!",
-  "IIT JEE, NEET, NTSE & Olympiad Batches — Admissions Open",
-  "Free Scholarship Cum Admission Test — Every Sunday 10 AM",
-  "Foundation Classes for Class 6th to 12th — Limited Seats",
+  "CBSE & ICSE Batches for Class 6th to 12th — Admissions Open",
+  "Free Demo Class — Call to Book Your Slot",
+  "Science & Mathematics Concept-Building Batches — Limited Seats",
 ];
 
 export default function AnnouncementBar() {
@@ -47,11 +47,11 @@ export default function AnnouncementBar() {
             <span className="hidden sm:inline text-white/50">|</span>
             <Phone className="w-3.5 h-3.5 flex-shrink-0 hidden sm:inline-block" />
             <a
-              href="tel:08130705508"
+              href="tel:+919005642857"
               className="underline underline-offset-2 hover:text-white transition-colors hidden sm:inline"
               style={{ color: "#93C5FD" }}
             >
-              081307 05508
+              90056 42857
             </a>
           </span>
         </div>
@@ -59,7 +59,7 @@ export default function AnnouncementBar() {
         <div className="flex items-center gap-2 flex-shrink-0">
           <span className="hidden md:flex items-center gap-1 text-white/70 text-[12px]">
             <MapPin className="w-3 h-3" />
-            Ft. Road, Sector-3, Bharatpur
+            Katra, Prayagraj
           </span>
           <a
             href="#contact"

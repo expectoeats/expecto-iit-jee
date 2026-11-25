@@ -29,28 +29,22 @@ const classes = [
   "Class 8th",
   "Class 9th",
   "Class 10th",
-  "Class 11th (JEE)",
-  "Class 11th (NEET)",
-  "Class 12th (JEE)",
-  "Class 12th (NEET)",
-  "NTSE Preparation",
-  "Olympiad Preparation",
-  "Dropper (JEE)",
-  "Dropper (NEET)",
+  "Class 11th",
+  "Class 12th",
 ];
 
 const trustBadges = [
-  { icon: <Target className="w-3.5 h-3.5" />, label: "IIT JEE & NEET Expert Faculty" },
-  { icon: <Building2 className="w-3.5 h-3.5" />, label: "Smart Digital Classrooms" },
-  { icon: <ClipboardList className="w-3.5 h-3.5" />, label: "Weekly Test Series" },
-  { icon: <HandshakeIcon className="w-3.5 h-3.5" />, label: "1-on-1 Doubt Sessions" },
+  { icon: <Target className="w-3.5 h-3.5" />, label: "Supportive Expert Faculty" },
+  { icon: <Building2 className="w-3.5 h-3.5" />, label: "AC Smartboard Classrooms" },
+  { icon: <ClipboardList className="w-3.5 h-3.5" />, label: "Strong Science & Maths Concepts" },
+  { icon: <HandshakeIcon className="w-3.5 h-3.5" />, label: "Doubt-Clearing Sessions" },
 ];
 
 const uspList = [
-  { icon: <GraduationCap className="w-4 h-4" />, text: "IIT & Medical Expert Faculty" },
-  { icon: <IndianRupee className="w-4 h-4" />, text: "Most Affordable Fees in Bharatpur" },
-  { icon: <Clock4Icon className="w-4 h-4" />, text: "NTSE & Olympiad Preparation" },
-  { icon: <ShieldCheck className="w-4 h-4" />, text: "100% Syllabus Completion Guarantee" },
+  { icon: <GraduationCap className="w-4 h-4" />, text: "Supportive Expert Faculty" },
+  { icon: <IndianRupee className="w-4 h-4" />, text: "Personalized Attention" },
+  { icon: <Clock4Icon className="w-4 h-4" />, text: "CBSE & ICSE — Class 6 to 12" },
+  { icon: <ShieldCheck className="w-4 h-4" />, text: "Friendly Learning Environment" },
 ];
 
 export default function LeadFormSection() {
@@ -74,13 +68,13 @@ export default function LeadFormSection() {
           <div>
             <div className="inline-flex items-center gap-2 border border-[#0F2C59]/15 text-[#0F2C59] lg:text-[12px] text-[10px] font-bold px-4 py-1.5 rounded-full mb-4 tracking-wide" style={{ backgroundColor: "#0F2C5910" }}>
               <Trophy className="w-3.5 h-3.5" style={{ color: SECONDARY }} />
-              <span>#1 Ranked Coaching — Bharatpur, Rajasthan</span>
+              <span>Highly Rated Coaching — Katra, Prayagraj</span>
             </div>
 
             <h1 className="font-heading text-[22px] sm:text-[30px] lg:text-[42px] font-extrabold text-[#0F2C59] leading-[1.2] tracking-tight mb-3">
-              Build a Solid Foundation for{" "}
-              <span style={{ color: SECONDARY }}>IIT JEE, NEET</span>{" "}
-              &amp; Board Exams with{" "}
+              Build Strong Concepts in{" "}
+              <span style={{ color: SECONDARY }}>Science &amp; Maths</span>{" "}
+              with{" "}
               <span className="relative inline-block">
                 Expert Mentors
                 <span className="absolute -bottom-1 left-0 right-0 h-1 rounded-full" style={{ backgroundColor: `${SECONDARY}30` }}></span>
@@ -89,7 +83,7 @@ export default function LeadFormSection() {
             </h1>
 
             <p className="text-[13px] sm:text-[15px] text-[#4B5563] leading-relaxed mb-4 max-w-lg">
-              Bharatpur&apos;s most trusted coaching — IIT JEE, NEET, NTSE, Olympiad &amp; Foundation classes with expert faculty &amp; personal mentorship.
+              Highly rated coaching in Katra, Prayagraj for CBSE &amp; ICSE students from Class 6 to 12 — modern AC smartboard classrooms, supportive faculty &amp; dedicated doubt-clearing sessions.
             </p>
 
             <div className="grid grid-cols-2 gap-2 mb-4 max-w-lg">
@@ -120,7 +114,7 @@ export default function LeadFormSection() {
             <div className="relative overflow-hidden rounded-2xl mb-5 h-48 sm:h-52 card-shadow border border-[#EAE5DC] group">
               <Image
                 src={STUDY_IMG}
-                alt="Students preparing for IIT JEE NEET at High Q Academy Bharatpur"
+                alt="Students studying at TSS Acharya Prayagraj"
                 fill
                 className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -128,13 +122,13 @@ export default function LeadFormSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#0F2C59]/80 via-[#0F2C59]/30 to-transparent"></div>
               <div className="absolute inset-0 p-5 sm:p-6 flex flex-col justify-end">
                 <div className="flex items-center gap-2 text-[11px] font-bold bg-white/15 backdrop-blur-sm px-3 py-1 rounded-full w-fit border border-white/20 mb-2 text-white/90">
-                  ⭐ 500+ Happy Students
+                  ⭐ Highly Recommended by Students
                 </div>
                 <div className="font-heading font-extrabold text-[16px] sm:text-[20px] text-white leading-tight">
-                  Join Bharatpur&apos;s Fastest Growing Coaching
+                  Join Prayagraj&apos;s Highly Rated Coaching
                 </div>
                 <div className="hidden sm:block text-[11px] text-white/65 font-semibold mt-1">
-                  Smart classes • Expert faculty • Affordable fees
+                  Smartboard classes • Supportive faculty • Personal attention
                 </div>
               </div>
             </div>
@@ -222,12 +216,12 @@ export default function LeadFormSection() {
                   <div className="text-[10.5px] text-[#6B7280] font-semibold uppercase tracking-wider">Response Time</div>
                 </div>
                 <div className="text-center border-x border-[#EAE5DC]">
-                  <div className="font-heading font-extrabold text-[18px] text-[#0F2C59]">500+</div>
-                  <div className="text-[10.5px] text-[#6B7280] font-semibold uppercase tracking-wider">Students</div>
+                  <div className="font-heading font-extrabold text-[18px] text-[#0F2C59]">6–12</div>
+                  <div className="text-[10.5px] text-[#6B7280] font-semibold uppercase tracking-wider">Classes</div>
                 </div>
                 <div className="text-center">
-                  <div className="font-heading font-extrabold text-[18px] text-[#0F2C59]">4.8★</div>
-                  <div className="text-[10.5px] text-[#6B7280] font-semibold uppercase tracking-wider">Google Rated</div>
+                  <div className="font-heading font-extrabold text-[18px] text-[#0F2C59]">CBSE · ICSE</div>
+                  <div className="text-[10.5px] text-[#6B7280] font-semibold uppercase tracking-wider">Both Boards</div>
                 </div>
               </div>
             </div>

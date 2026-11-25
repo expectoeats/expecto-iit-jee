@@ -32,54 +32,54 @@ const FACULTY_IMG = "https://images.unsplash.com/photo-1522202176988-66273c2fd55
 const pillars = [
   {
     icon: <GraduationCap className="w-7 h-7" />,
-    title: "IIT & AIIMS Trained Faculty",
-    desc: "Every senior faculty brings firsthand experience of cracking JEE Advanced & NEET with top ranks. Concepts are explained from first principles with real-world problem solving.",
+    title: "Supportive Expert Faculty",
+    desc: "Popular mentors like Ankit Sir (B.Sc. University of Allahabad, M.Sc. Banaras Hindu University) explain every concept of Science and Mathematics from first principles.",
     tag: "Expert Teachers",
   },
   {
     icon: <Monitor className="w-7 h-7" />,
-    title: "Smart Digital Classrooms",
-    desc: "Full HD interactive digital boards in every classroom for visual learning. 3D animations, recorded lectures backup, and annotated notes for crystal-clear concept retention.",
+    title: "AC Smartboard Classrooms",
+    desc: "Modern, air-conditioned classrooms equipped with smartboards make every topic visual and easy to understand.",
     tag: "Tech Enabled",
   },
   {
     icon: <HelpCircle className="w-7 h-7" />,
-    title: "Doubt Removal & Mentorship",
-    desc: "Dedicated doubt counters after every class + 24x7 doubt support on WhatsApp. Each student gets a personal mentor for study plan, performance tracking & motivation.",
+    title: "Dedicated Doubt-Clearing",
+    desc: "Dedicated doubt-clearing sessions make sure every question is answered patiently, so that no student is left behind.",
     tag: "1on1 Attention",
   },
   {
     icon: <IndianRupee className="w-7 h-7" />,
-    title: "Affordable & Transparent Fees",
-    desc: "Bharatpur ki most reasonable fees structure. No hidden charges, no pressure tactics. Scholarships available for meritorious & financially weak students every month.",
-    tag: "Value for Money",
+    title: "Friendly Learning Environment",
+    desc: "An encouraging, friendly atmosphere where students feel free to ask questions and actually enjoy learning.",
+    tag: "Student Friendly",
   },
 ];
 
 const pillars2 = [
   {
     icon: <Users2 className="w-7 h-7" />,
-    title: "Small Batch Size",
-    desc: "Max 40-45 students per batch so every child gets personal attention. Faculty knows every student by name and tracks their weekly progress individually.",
+    title: "Personalized Attention",
+    desc: "Every child gets personal attention. Teachers understand each student's strengths and weak areas and guide them individually.",
     tag: "Focused Learning",
   },
   {
     icon: <TrendingUp className="w-7 h-7" />,
-    title: "Weekly Tests & Analytics",
-    desc: "Chapter-wise test every Sunday + monthly full syllabus mock test as per JEE/NEET pattern. Detailed scorecard with weak-area analysis shared with parents via WhatsApp.",
-    tag: "Result Tracking",
+    title: "School Exam Excellence",
+    desc: "Focused academic support for CBSE and ICSE school exams from Class 6 up to Class 12.",
+    tag: "CBSE & ICSE",
   },
   {
     icon: <AwardIcon className="w-7 h-7" />,
-    title: "100% Syllabus on Time",
-    desc: "Time-bound academic calendar with guaranteed completion of full syllabus 2 months before exam. Ample revision time with 3 rounds of revision marathons.",
-    tag: "Time Bound",
+    title: "Strong Concepts in Science & Maths",
+    desc: "Teaching that builds real understanding of Science and Mathematics instead of rote learning.",
+    tag: "Concept First",
   },
   {
     icon: <CheckCircle2 className="w-7 h-7" />,
-    title: "Weekly Parent Meeting",
-    desc: "Every Saturday parents meet faculty and discuss their child's progress — attendance, test performance, homework completion & behaviour. Complete transparency.",
-    tag: "Parent Connect",
+    title: "Competitive Foundation",
+    desc: "Strong fundamentals that help students excel in foundational competitive tests along with their school exams.",
+    tag: "Extra Edge",
   },
 ];
 
@@ -87,12 +87,12 @@ const vmv = [
   {
     icon: <Eye className="w-6 h-6" />,
     title: "Our Vision",
-    desc: "High Q Academy ka sapna hai ki Bharatpur ka har wo student jo IIT ya Medical banana chahta hai, usko Kota ya Delhi jaane ki zaroorat na pade. Hum yahi pe, Bharatpur mein, woh level ki coaching dena chahte hain jisse humaari nagri ke bacche Top AIR laa sakein.",
+    desc: "TSS Acharya ka sapna hai ki Prayagraj ke har CBSE aur ICSE student ko Class 6 se 12 tak strong concepts aur sahi guidance mile — ek aise friendly mahaul mein jahan padhai bojh nahi, confidence ban jaye.",
   },
   {
     icon: <Target className="w-6 h-6" />,
     title: "Our Mission",
-    desc: "Har student ke andar jo potential chhupa hai usko baahar nikaalna. Weakest student ko bhi itna strong banana ki wo confidently JEE Advanced aur NEET crack kar sake. Right guidance, honest teaching, aur affordable fees — yehi hamara mission hai.",
+    desc: "Har student ke andar jo potential chhupa hai usko baahar nikaalna. Science aur Maths ke concepts itne strong banana ki baccha school exams aur foundational competitive tests dono mein confidently perform kare. Personal attention, doubt-clearing aur honest teaching — yehi hamara mission hai.",
   },
   {
     icon: <Heart className="w-6 h-6" />,
@@ -102,10 +102,10 @@ const vmv = [
 ];
 
 const stats = [
-  { value: "500+", label: "Students Taught", icon: <Users className="w-5 h-5" /> },
-  { value: "4.8★", label: "Google Rating", icon: <Star className="w-5 h-5 fill-current" /> },
-  { value: "79+", label: "Parent Reviews", icon: <Award className="w-5 h-5" /> },
-  { value: "25+", label: "JEE / NEET Selections", icon: <TrendingUp className="w-5 h-5" /> },
+  { value: "6–12", label: "Classes Covered", icon: <Users className="w-5 h-5" /> },
+  { value: "2", label: "Boards — CBSE & ICSE", icon: <Star className="w-5 h-5 fill-current" /> },
+  { value: "AC", label: "Smartboard Classrooms", icon: <Award className="w-5 h-5" /> },
+  { value: "1:1", label: "Doubt-Clearing Support", icon: <TrendingUp className="w-5 h-5" /> },
 ];
 
 export default function DirectorSection() {
@@ -115,19 +115,19 @@ export default function DirectorSection() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 text-[12px] font-bold px-4 py-1.5 rounded-full mb-4 tracking-wider uppercase" style={{ backgroundColor: `${SECONDARY}14`, color: SECONDARY }}>
             <Medal className="w-3.5 h-3.5" />
-            About HIGH Q ACADEMY
+            About TSS ACHARYA
           </div>
           <h2 className="font-heading text-[24px] sm:text-[30px] md:text-[40px] font-extrabold leading-tight mb-3" style={{ color: PRIMARY }}>
-            Bharatpur&apos;s Most Trusted{" "}
-            <span style={{ color: SECONDARY }}>IIT JEE &amp; NEET Coaching</span>
+            Prayagraj&apos;s Highly Rated{" "}
+            <span style={{ color: SECONDARY }}>CBSE &amp; ICSE Coaching</span>
           </h2>
           <p className="text-[13px] sm:text-[15px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed hidden sm:block">
-            HIGH Q ACADEMY ki sthapna ek hi clear nishay ke saath hui hai —
-            quality education Bharatpur ke har bacche tak, uski aam zindagi mein,
+            TSS ACHARYA ki sthapna ek hi clear nishay ke saath hui hai —
+            quality education Prayagraj ke har bacche tak, uski aam zindagi mein,
             uski bhasha mein, aur uske budget mein.
           </p>
           <p className="text-[13px] text-[#6B7280] max-w-2xl mx-auto leading-relaxed sm:hidden">
-            Quality education Bharatpur ke har bacche tak — uski bhasha mein, uske budget mein.
+            Quality education Prayagraj ke har bacche tak — uski bhasha mein, uske budget mein.
           </p>
         </div>
 
@@ -145,7 +145,7 @@ export default function DirectorSection() {
                   hai.&rdquo;
                 </h3>
                 <p className="text-[13px] text-white/70 leading-relaxed mb-4 hidden sm:block">
-                  HIGH Q ACADEMY mein hum kabhi bhi kisi student ko weak nahi kehte.
+                  TSS ACHARYA mein hum kabhi bhi kisi student ko weak nahi kehte.
                   Hum kehte hain — &ldquo;abhi weak hai, par kal top karega.&rdquo;
                   Aur yahi hamara confidence hamare students mein bhi jaata hai.
                   Ek sahi teacher sirf padhta nahi, bacha banata hai.
@@ -157,7 +157,7 @@ export default function DirectorSection() {
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center overflow-hidden border-2 border-white/20 bg-white">
                     <Image
                       src="/logo.jpg"
-                      alt="HIGH Q ACADEMY Founder Logo"
+                      alt="TSS ACHARYA Logo"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain p-0.5"
@@ -165,10 +165,10 @@ export default function DirectorSection() {
                   </div>
                   <div>
                     <div className="font-heading font-bold text-[16px] text-white leading-tight">
-                      HIGH Q ACADEMY
+                      TSS ACHARYA
                     </div>
                     <div className="text-[12px] text-white/50 font-semibold mt-0.5">
-                      Founder &amp; Academic Head
+                      The Skill Share · Katra, Prayagraj
                     </div>
                   </div>
                 </div>
@@ -183,24 +183,24 @@ export default function DirectorSection() {
                     <p className="text-[13px] sm:text-[15px] text-[#374151] leading-[1.8] italic hidden sm:block">
                       &ldquo;हमारा लक्ष्य केवल सिलेबस पढ़ना नहीं, बल्कि हर उस छात्र को
                       आत्मविश्वास देना है जो अभी तक किसी ने seriously नहीं लिया।
-                      HIGH Q ACADEMY में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
+                      TSS ACHARYA में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
                       क्योंकि हमें पता है, एक सही मार्गदर्शन और सही environment से
                       हर बच्चा <strong style={{ color: SECONDARY }}>Top Rank</strong> ला सकता है।&rdquo;
                     </p>
                     <p className="text-[13px] text-[#374151] leading-[1.8] italic sm:hidden">
-                      &ldquo;HIGH Q ACADEMY में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
+                      &ldquo;TSS ACHARYA में सबसे पहले <strong>weakest student</strong> की फोकस करते हैं —
                       एक सही मार्गदर्शन से हर बच्चा <strong style={{ color: SECONDARY }}>Top Rank</strong> ला सकता है।&rdquo;
                     </p>
                   </div>
 
                   <div className="hidden sm:grid grid-cols-1 gap-2.5">
                     {[
-                "Small batch size — max 45 students",
-                       "Weekly PTM every Saturday 4 PM",
-                       "Complete syllabus 2 months before exam",
-                       "Affordable fees — zero hidden charges",
-                       "24x7 doubt support on WhatsApp",
-                       "Scholarship test every Sunday",
+                "CBSE & ICSE — Class 6 to 12",
+                       "Air-conditioned smartboard classrooms",
+                       "Strong concepts in Science & Maths",
+                       "Dedicated doubt-clearing sessions",
+                       "Personalized attention for every student",
+                       "Friendly, encouraging environment",
                     ].map((item) => (
                       <div key={item} className="flex items-start gap-2.5 text-[13px] font-semibold text-[#374151]">
                         <span className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ backgroundColor: `${SECONDARY}18`, color: SECONDARY }}>
@@ -215,7 +215,7 @@ export default function DirectorSection() {
                   <div className="relative rounded-2xl overflow-hidden h-56 md:h-full card-shadow border border-[#EAE5DC] group">
                     <Image
                       src={DIRECTOR_IMG}
-                      alt="HIGH Q ACADEMY Academic Director teaching students"
+                      alt="TSS ACHARYA mentor teaching students"
                       fill
                       className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 30vw"
@@ -224,10 +224,10 @@ export default function DirectorSection() {
                     <div className="absolute bottom-3 left-3 right-3">
                       <div className="bg-white/95 backdrop-blur-sm rounded-lg px-3 py-2 text-center">
                         <div className="font-heading font-bold text-[12px] text-[#0F2C59] leading-tight">
-                          Founder &amp; Academic Head
+                          Ankit Sir
                         </div>
                         <div className="text-[10px] font-semibold" style={{ color: SECONDARY }}>
-                          15+ Years Teaching Experience
+                          B.Sc. (Univ. of Allahabad) · M.Sc. (BHU)
                         </div>
                       </div>
                     </div>
@@ -243,7 +243,7 @@ export default function DirectorSection() {
             <div className="relative h-40 sm:h-52 md:h-60">
                 <Image
                 src={FACULTY_IMG}
-                alt="HIGH Q ACADEMY Expert Faculty Team Bharatpur"
+                alt="TSS ACHARYA Faculty Team Prayagraj"
                 fill
                 className="object-cover w-full"
                 sizes="100vw"
@@ -256,7 +256,7 @@ export default function DirectorSection() {
                     Our Expert Faculty Team
                   </div>
                   <h3 className="font-heading text-[22px] sm:text-[28px] md:text-[34px] font-extrabold text-white leading-tight max-w-xl">
-                    IIT &amp; AIIMS Trained Teachers Who Care
+                    Supportive Mentors Who Care
                   </h3>
                 </div>
               </div>
@@ -265,9 +265,9 @@ export default function DirectorSection() {
 
           <div className="text-center mb-8">
               <h3 className="font-heading text-[24px] md:text-[30px] font-extrabold leading-tight mb-2" style={{ color: PRIMARY }}>
-              The <span style={{ color: SECONDARY }}>Eight Pillars</span> of HIGH Q ACADEMY
+              The <span style={{ color: SECONDARY }}>Eight Pillars</span> of TSS ACHARYA
             </h3>
-            <p className="text-[14px] text-[#6B7280]">Ye 8 cheezein humein Bharatpur ke baaki coaching se alag banati hain.</p>
+            <p className="text-[14px] text-[#6B7280]">Ye 8 cheezein humein Prayagraj ke baaki coaching se alag banati hain.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[...pillars, ...pillars2].map((p, i) => (

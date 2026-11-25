@@ -8,48 +8,48 @@ const SECONDARY_HOVER = "#1E40AF";
 
 const courses = [
   {
-    id: "jee-main",
-    name: "JEE Main",
-    tagline: "Engineering Entrance",
-    eligibility: "Class 11th, 12th & Droppers",
+    id: "class-6-8",
+    name: "Class 6th to 8th",
+    tagline: "Strong Foundation",
+    eligibility: "CBSE & ICSE Students",
     icon: "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=500&q=80",
-    mode: "Offline + Digital Board",
+    mode: "Offline + Smartboard",
     color: SECONDARY,
-    features: ["Physics, Chemistry, Maths", "Mock Tests & DPPs", "Rank Booster Batches"],
+    features: ["Science & Maths Concepts", "School Exam Support", "Doubt-Clearing Sessions"],
+    badge: "Early Start",
+  },
+  {
+    id: "class-9-10",
+    name: "Class 9th & 10th",
+    tagline: "Board Exam Preparation",
+    eligibility: "CBSE & ICSE Students",
+    icon: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=500&q=80",
+    mode: "Offline + Smartboard",
+    color: "#0F2C59",
+    features: ["Strong Concepts in Science & Maths", "Personalized Attention", "Doubt-Clearing Sessions"],
     badge: "Most Popular",
   },
   {
-    id: "jee-advanced",
-    name: "JEE Advanced",
-    tagline: "IIT Entrance",
-    eligibility: "JEE Main Qualified Students",
-    icon: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=500&q=80",
-    mode: "Offline + Digital Board",
-    color: "#0F2C59",
-    features: ["Advanced Problem Solving", "IIT Pattern Mock Tests", "1-on-1 Mentorship"],
-    badge: "Premium",
-  },
-  {
-    id: "neet-ug",
-    name: "NEET UG",
-    tagline: "Medical Entrance",
-    eligibility: "Class 11th, 12th & Droppers",
-    icon: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=500&q=80",
-    mode: "Offline + Digital Board",
+    id: "class-11-12",
+    name: "Class 11th & 12th",
+    tagline: "Science & Mathematics",
+    eligibility: "CBSE & ICSE Students",
+    icon: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=500&q=80",
+    mode: "Offline + Smartboard",
     color: "#059669",
-    features: ["Biology, Physics, Chemistry", "NCERT-focused Study Plan", "Revision Marathons"],
+    features: ["Concept-First Teaching", "School & Board Exam Focus", "Mentorship by Ankit Sir"],
     badge: "High Demand",
   },
   {
-    id: "foundation",
-    name: "Foundation (6th–12th)",
-    tagline: "Board + Competitive Edge",
-    eligibility: "Class 6, 7, 8, 9, 10, 11, 12 Students",
-    icon: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=500&q=80",
-    mode: "Offline + Digital Board",
+    id: "competitive-foundation",
+    name: "Competitive Foundation",
+    tagline: "Beyond School Exams",
+    eligibility: "Class 6th to 12th",
+    icon: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=500&q=80",
+    mode: "Offline + Smartboard",
     color: "#7C3AED",
-    features: ["Science & Maths Mastery", "NTSE & Olympiad Prep", "Concept Building"],
-    badge: "Early Advantage",
+    features: ["Foundational Competitive Tests", "Strong Science & Maths Base", "Friendly Mentorship"],
+    badge: "Extra Edge",
   },
 ];
 
@@ -66,11 +66,11 @@ export default function CoursesGrid() {
             <span style={{ color: SECONDARY }}>Success</span>
           </h2>
           <p className="mt-2 text-[13px] sm:text-[15px] text-[#6B7280] max-w-xl mx-auto leading-relaxed hidden sm:block">
-            Expert-crafted batches with smart digital classrooms, weekly tests,
-            and dedicated doubt-removal sessions — right in Bharatpur.
+            CBSE &amp; ICSE batches from Class 6 to 12 with AC smartboard classrooms, personalized attention,
+            and dedicated doubt-clearing sessions — right in Katra, Prayagraj.
           </p>
           <p className="mt-2 text-[13px] text-[#6B7280] max-w-xl mx-auto leading-relaxed sm:hidden">
-            Smart classrooms &amp; weekly tests — right in Bharatpur.
+            Smartboard classrooms &amp; doubt-clearing — right in Prayagraj.
           </p>
         </div>
 
